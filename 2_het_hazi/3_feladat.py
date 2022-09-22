@@ -5,19 +5,15 @@ def main():
     excessSodium = 0
     excessChlorine = 0
 
-    # if sodium == chlorine * 2: 
-    #     sodium_chloride = chlorine * 2
-    # elif sodium > chlorine * 2:
-    #     sodium_chloride = chlorine * 2
-    #     excessChlorine = (sodium - chlorine * 2) * 2
-    # else:
-    #     sodium_chloride = sodium
-    #     excessSodium = chlorine * 2 - sodium
+    while 1:
+      sodium -= 2
+      chlorine -= 1
+      sodium_chloride += 2
 
-    for i in range(2, sodium + 1):
-      sodium = sodium - 2
-      chlorine = chlorine - 1
-      sodium_chloride = sodium_chloride + 2
+      if sodium == 0:
+        break
+      elif sodium == 1: 
+        break
       
     excessSodium = sodium
     excessChlorine = chlorine
