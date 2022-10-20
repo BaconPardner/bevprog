@@ -8,7 +8,7 @@ def converter(decimal_value):
   while(dividend >= 1):
 
     quotient = dividend // divisor
-    binary_value += str(dividend % divisor)
+    binary_value = str(dividend % divisor) + binary_value
     binary = dividend % divisor
 
     print(f"{dividend}\t/ {divisor} = {quotient} \t {binary}".expandtabs( len(str(decimal_value)) + 2) )

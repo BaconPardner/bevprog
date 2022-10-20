@@ -11,8 +11,8 @@ def inserter(sentence, param):
 
 def main():
 
-  sentence = input("Adjon meg egy szót: ")
-  param = input("Adjon meg egy másik szót melyet az előző elé szúrunk: ")
+  sentence = input("Adjon meg egy stringet: ")
+  param = input("Adjon meg egy másik stringet melyet az előző string utolsó tagja elé szúrunk: ")
 
   print(inserter(sentence, param))
 

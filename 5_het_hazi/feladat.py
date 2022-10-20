@@ -1,5 +1,11 @@
+rang_dict = {
+  (0, 0) : "Intern",
+  (1, 2) : "Junior",
+  (3, 5) : "Medior"
+}
+
 class Fejleszto:
-  def __init__(self, nev, fizetes, ev = 0, rang = "Junior"):
+  def __init__(self, nev: str, fizetes: int, ev: int = 0, rang: str = "Junior"):
     self.nev = nev
     self.fizetes = fizetes
     self.ev = ev
@@ -12,23 +18,22 @@ class Fejleszto:
     self.ev += 1
   
   def fejleszto_rang(self):
-    rang_dict = {
-      "Intern" : [0, 0],
-      "Junior" : [1, 2],
-      "Medior" : [3, 5]
-    }
+    self.rang = [ value for [min_ev, max_ev], value in rang_dict.items() if self.ev >= min_ev and self.ev <= max_ev ][0] or "Senior"
 
-    for key, [min_ev, max_ev] in rang_dict.items():
-      if self.ev >= min_ev and self.ev <= max_ev:
-        self.rang = key
-        break
-      elif (self.ev > 5):
-        self.rang = "Senior"
+    # for [min_ev, max_ev], value in rang_dict.items():
+    #   if self.ev >= min_ev and self.ev <= max_ev:
+    #     self.rang = value
+    #     break
+    #   elif (self.ev > 5):
+    #     self.rang = "Senior"
+
+  def __str__(self) -> str:
+    return f"Név: {self.nev}\t Rang: {self.rang}\tFizetés: {self.fizetes}\tEltöltött évek: {self.ev}"
 
 def main():
   f1 = Fejleszto("asd", 123)
 
-  print(f"Név: {f1.nev}\t Rang: {f1.rang}\tFizetés: {f1.fizetes}\tEltöltött évek: {f1.ev}")
+  print(f1)
 
   # test
   f1.ev_noveles()
@@ -36,7 +41,9 @@ def main():
   f1.ev_noveles()
   f1.fejleszto_rang()
   f1.fizetes_emeles()
-  print(f"Név: {f1.nev}\t Rang: {f1.rang}\tFizetés: {f1.fizetes}\tEltöltött évek: {f1.ev}")
+  f1.fizetes_emeles(2000)
+  print(f1)
+
 
 if __name__ == "__main__":
   main()

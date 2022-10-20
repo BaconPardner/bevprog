@@ -1,19 +1,21 @@
-def valid(text, chars):
-  vaild_text = ""
+def valid(text, chars="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"):
+  # vaild_text = ""
 
-  for i in text:
-    for j in chars:
-      if i == j:
-        vaild_text += i
+  # for i in text:
+  #   for j in chars:
+  #     if i == j:
+  #       vaild_text += i
 
-  return vaild_text
+  # return vaild_text
+
+  return "".join([i for i in text for j in chars if i == j])
 
 def main():
-  text = input("Adjon meg egy karakterláncot: ")
+  o1 = valid("Barking!")
+  o2 = valid("KL754", "0123456789")
+  o3 = valid("BEAN", "abcdefghijklmnopqrstuvwxyz")
 
-  output = valid(text, chars="ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789")
-
-  print(f"-> {output}")
+  print(f"-> {o1, o2, o3}")
 
 if __name__ == "__main__":
   main()

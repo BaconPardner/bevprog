@@ -1,20 +1,20 @@
 def main():
-    sodium = int(input("Sodium: "))
-    chlorine = int(input("Chlorine: "))
+    sodium = int(input("Sodium (Na): "))
+    chlorine = int(input("Chlorine (Cl): "))
     sodium_chloride = 0
     excessSodium = 0
     excessChlorine = 0
 
     while 1:
+      if sodium == 0 or chlorine == 0:
+        break
+      elif sodium == 1: 
+        break
+
       sodium -= 2
       chlorine -= 1
       sodium_chloride += 2
 
-      if sodium == 0:
-        break
-      elif sodium == 1: 
-        break
-      
     excessSodium = sodium
     excessChlorine = chlorine
 

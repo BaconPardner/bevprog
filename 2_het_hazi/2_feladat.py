@@ -1,7 +1,4 @@
-from cmath import sqrt
 import math
-
-
 
 def pythagoras():
   print("Pitagorasz-tétel")
