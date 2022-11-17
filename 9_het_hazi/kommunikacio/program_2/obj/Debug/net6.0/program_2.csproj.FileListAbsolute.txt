@@ -1,0 +1,17 @@
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/bin/Debug/net6.0/program_2
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/bin/Debug/net6.0/program_2.deps.json
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/bin/Debug/net6.0/program_2.runtimeconfig.json
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/bin/Debug/net6.0/program_2.dll
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/bin/Debug/net6.0/ref/program_2.dll
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/bin/Debug/net6.0/program_2.pdb
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/program_2.csproj.AssemblyReference.cache
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/program_2.GeneratedMSBuildEditorConfig.editorconfig
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/program_2.AssemblyInfoInputs.cache
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/program_2.AssemblyInfo.cs
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/program_2.csproj.CoreCompileInputs.cache
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/program_2.csproj.CopyComplete
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/program_2.dll
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/ref/program_2.dll
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/program_2.pdb
+/home/baconpardner/University/bevprog/9_het_hazi/kommunikacio/program_2/obj/Debug/net6.0/program_2.genruntimeconfig.cache
