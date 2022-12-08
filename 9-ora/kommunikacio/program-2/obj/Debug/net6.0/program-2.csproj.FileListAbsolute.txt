@@ -1,0 +1,15 @@
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/bin/Debug/net6.0/program-2
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/bin/Debug/net6.0/program-2.deps.json
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/bin/Debug/net6.0/program-2.runtimeconfig.json
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/bin/Debug/net6.0/program-2.dll
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/bin/Debug/net6.0/ref/program-2.dll
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/bin/Debug/net6.0/program-2.pdb
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/obj/Debug/net6.0/program-2.csproj.AssemblyReference.cache
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/obj/Debug/net6.0/program-2.GeneratedMSBuildEditorConfig.editorconfig
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/obj/Debug/net6.0/program-2.AssemblyInfoInputs.cache
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/obj/Debug/net6.0/program-2.AssemblyInfo.cs
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/obj/Debug/net6.0/program-2.csproj.CoreCompileInputs.cache
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/obj/Debug/net6.0/program-2.dll
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/obj/Debug/net6.0/ref/program-2.dll
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/obj/Debug/net6.0/program-2.pdb
+/home/baconpardner/University/bevprog/9-ora/kommunikacio/program-2/obj/Debug/net6.0/program-2.genruntimeconfig.cache
