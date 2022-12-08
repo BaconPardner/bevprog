@@ -130,4 +130,4 @@ dmypy.json
 
 # My Stuff
 base.py
-.vscode
+.vscode/
